@@ -5,7 +5,7 @@ function myFirstApp (name, age) {
         let skills = ['html', 'css', 'js'];
         // Я владею: html
         for (let i = 0; i < skills.length; i++) {
-            console.log(skills[i]);
+            console.log(`Я владею: ${skills[i]}`);
         }
     }
 
